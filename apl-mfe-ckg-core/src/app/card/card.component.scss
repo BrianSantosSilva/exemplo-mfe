@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    min-height: 150px;
+    max-width: 48%;
+    margin: 0.5%;
+
+    background-color: lightblue;
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 50%;
+
+    .cartoes {
+        background: red;
+    }
+ }

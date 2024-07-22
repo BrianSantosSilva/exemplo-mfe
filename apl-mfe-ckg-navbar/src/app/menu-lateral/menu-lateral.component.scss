@@ -1,0 +1,17 @@
+.menu-lateral {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+
+    .menu-lateral-item {
+        min-height: 50px;
+        min-width: 50px;
+        background-color: lightgray;
+        display: flex;
+        border: 1px solid gray;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+}

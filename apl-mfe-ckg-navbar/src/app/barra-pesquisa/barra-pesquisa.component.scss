@@ -1,0 +1,12 @@
+.barra-pesquisa {
+    min-width: 200px;
+    min-height: 50px;
+    margin-left: 100px;
+
+    .input-pesquisa {
+       min-width: 200px;
+    }
+    .faixa-imp {
+        display: flex;
+    }
+}

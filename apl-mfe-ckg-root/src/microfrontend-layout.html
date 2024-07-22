@@ -1,0 +1,48 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <main>
+   
+    <route path="login">
+      <application name="@safra/apl-mfe-ckg-core"></application>
+    </route>
+    
+    <route path="home">
+      <nav class="topnav">
+        <application name="@safra/apl-mfe-ckg-navbar"></application>
+      </nav>
+      <div class="container-page-internal">
+        <application name="@safra/apl-mfe-ckg-core"></application>
+      </div>
+    </route>
+
+    
+    
+
+    <route path="cartoes">
+      <nav class="topnav">
+        <application name="@safra/apl-mfe-ckg-navbar"></application>
+      </nav>
+      <div class="container-page-internal">
+        <application name="@safra/apl-mfe-ckg-cartoes"></application>
+      </div>
+    </route>
+   
+  </main>
+</single-spa-router>
